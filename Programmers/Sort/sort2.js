@@ -1,17 +1,29 @@
+// function solution(numbers) {
+//   numbers.sort((a, b) => {
+//     let num1 = String(a);
+//     let num2 = String(b);
+
+//     return num1 + num2 - (num2 + num1);
+//   });
+//   let answer = "";
+
+//   for (let i = numbers.length - 1; i >= 0; i--) {
+//     answer += String(numbers[i]);
+//   }
+
+//   answer.split("", 1)[0] === "0" ? console.log("0") : console.log(answer);
+// }
+
 function solution(numbers) {
   numbers.sort((a, b) => {
-    let num1 = String(a);
-    let num2 = String(b);
+    let str1 = a.toString();
+    let str2 = b.toString();
 
-    return num1 + num2 - (num2 + num1);
+    return str2 + str1 - (str1 + str2);
   });
-  let answer = "";
 
-  for (let i = numbers.length - 1; i >= 0; i--) {
-    answer += String(numbers[i]);
-  }
-
-  answer.split("", 1)[0] === "0" ? console.log("0") : console.log(answer);
+  if (numbers[0] === 0) console.log("0");
+  console.log(typeof numbers.join(""));
 }
 
 solution([6, 10, 2]);
