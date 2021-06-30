@@ -9,3 +9,16 @@
         - `start` 값을 `progressess`의 첫번째 값으로 지정하고 `temp` 배열에 push함
         - `start` 보다 큰 수가 나올 때 까지 `temp`에 push 함 
         - `start`본다 큰 `current`가 나오면 `temp`의 길이를 `answer` 배열에 push 하고 `temp`를 초기화 함
+
+
+# 크레인 인형뽑기 게임 (stackQueue4.js)
+----
+    1. 문제 풀이
+        - `moves`의 길이만큼 반복, `moves`엘리먼트-1 : col
+        - `board`의 길이만큼 반복
+        - `board[][col]` 값이 `0` 이면 `continue`
+        - 아니면 다음 행동으로 넘어감  
+        - `stack.pop()`과 현재 뽑은 숫자를 비교해서 같으면 `cnt +=2` 하고 `break`
+        - 아니면 다시 스택에 넣고 `break`
+  
+[프로그래머스 페이지](https://programmers.co.kr/learn/courses/30/lessons/64061?language=javascript)

@@ -4,7 +4,6 @@ function solution(progresses, speeds) {
   progresses = progresses.map((item, index) =>
     Math.ceil((100 - item) / speeds[index])
   );
-  let count = 0;
   let start = progresses[0];
   temp.push(start);
   let idx = 1;
@@ -17,7 +16,6 @@ function solution(progresses, speeds) {
     }
 
     temp.push(currnet);
-    console.log(temp);
     idx++;
   }
   answer.push(temp.length);

@@ -10,9 +10,7 @@ function solution(priorities, location) {
     let idx = arridx[0];
     let num = priorities[idx];
 
-    let findmaxnum = (item) => num < item;
-    let maxNum = priorities.find(findmaxnum);
-    console.log(arridx, num, maxNum);
+    let maxNum = priorities.find((item) => num < item);
 
     if (maxNum === undefined) {
       priorities[idx] = -1;
