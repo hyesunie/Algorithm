@@ -14,3 +14,8 @@
         - 전체레코드를 읽으면서 객체를 매칭 시키고
         - 최종적인 닉네임 아이디 매칭 객체를 이용해서 정답 문구를 생성
 [프로그래머스 페이지](https://programmers.co.kr/learn/courses/30/lessons/42888)
+
+
+# 실패율 (kakao4.js)
+-----
+[프로그래머스 페이지](https://programmers.co.kr/learn/courses/30/lessons/42889)
