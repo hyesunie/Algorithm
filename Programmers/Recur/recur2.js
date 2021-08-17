@@ -13,8 +13,6 @@ function solution(n, computers) {
       }
     }
     visited[num] = true;
-    console.log(visited, computers);
-
     recur(stack.pop());
   };
 
