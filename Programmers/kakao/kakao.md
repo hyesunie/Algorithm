@@ -34,3 +34,7 @@
 # 수식 최대화 (kakao7.js)
 -----
 [프로그래머스 페이지](https://programmers.co.kr/learn/courses/30/lessons/60058?language=javascript#)
+
+# 튜플 (kakao8.js)
+-----
+[프로그래머스 페이지](https://programmers.co.kr/learn/courses/30/lessons/64065/solution_groups?language=javascript&type=my)
